@@ -15,6 +15,7 @@ import { useCart } from '../context/CartContext';
 import { ContactSection } from '../components/storefront/ContactSection';
 import { NoticeBar } from '../components/storefront/NoticeBar';
 import { productsApi, mapBackendProductToItem } from '../api/productsApi';
+import { getAssetUrl } from '../utils/assetUrl';
 
 export const ProductDetailPage: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -150,9 +151,12 @@ export const ProductDetailPage: React.FC = () => {
           <div className="space-y-4">
             <div className="relative aspect-square w-full rounded-xl bg-[#F7F7F5] border border-[#E5E5E5] overflow-hidden flex items-center justify-center p-6 shadow-sm">
               <img
-                src={activeImageSide === 'front' ? product.image : product.imageHover || product.image}
+                src={getAssetUrl(activeImageSide === 'front' ? product.image : product.imageHover || product.image)}
                 alt={product.name}
                 className="w-full h-full object-contain transition-all duration-300"
+                onError={(e: any) => {
+                  e.currentTarget.src = getAssetUrl('products/the-heavy-polo.jpg');
+                }}
               />
 
               <div className="absolute top-4 left-4 px-2.5 py-1 bg-[#06110C] text-white text-[10px] font-semibold tracking-wider uppercase rounded">
@@ -361,9 +365,12 @@ export const ProductDetailPage: React.FC = () => {
                 >
                   <div className="aspect-square w-full rounded-lg overflow-hidden bg-white mb-3 flex items-center justify-center p-2">
                     <img
-                      src={rp.image}
+                      src={getAssetUrl(rp.image)}
                       alt={rp.name}
                       className="w-full h-full object-contain group-hover:scale-105 transition-transform"
+                      onError={(e: any) => {
+                        e.currentTarget.src = getAssetUrl('products/the-heavy-polo.jpg');
+                      }}
                     />
                   </div>
                   <h4 className="text-xs font-semibold text-[#171717] group-hover:text-[#A31C1B] transition-colors truncate">

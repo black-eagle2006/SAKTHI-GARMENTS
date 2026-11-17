@@ -157,8 +157,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/performance-polo.jpg",
-        "imageHover": "/products/performance-polo-back.jpg",
+        "image": "./products/performance-polo.jpg",
+        "imageHover": "./products/performance-polo-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -217,8 +217,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/activewear-polo.jpg",
-        "imageHover": "/products/activewear-polo-back.jpg",
+        "image": "./products/activewear-polo.jpg",
+        "imageHover": "./products/activewear-polo-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -277,8 +277,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/polyester-cotton-polo-t-shirt.jpg",
-        "imageHover": "/products/polyester-cotton-polo-t-shirt-back.jpg",
+        "image": "./products/polyester-cotton-polo-t-shirt.jpg",
+        "imageHover": "./products/polyester-cotton-polo-t-shirt-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -337,8 +337,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/the-heavy-polo.jpg",
-        "imageHover": "/products/the-heavy-polo-back.jpg",
+        "image": "./products/the-heavy-polo.jpg",
+        "imageHover": "./products/the-heavy-polo-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -397,8 +397,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/lightweight-polo.jpg",
-        "imageHover": "/products/lightweight-polo-back.jpg",
+        "image": "./products/lightweight-polo.jpg",
+        "imageHover": "./products/lightweight-polo-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -457,8 +457,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/sustainable-polo.jpg",
-        "imageHover": "/products/sustainable-polo-back.jpg",
+        "image": "./products/sustainable-polo.jpg",
+        "imageHover": "./products/sustainable-polo-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -517,8 +517,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/pure-cotton-collared-t-shirt.jpg",
-        "imageHover": "/products/pure-cotton-collared-t-shirt-back.jpg",
+        "image": "./products/pure-cotton-collared-t-shirt.jpg",
+        "imageHover": "./products/pure-cotton-collared-t-shirt-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -588,8 +588,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/pure-cotton-round-neck-t-shirt.jpg",
-        "imageHover": "/products/pure-cotton-round-neck-t-shirt-back.jpg",
+        "image": "./products/pure-cotton-round-neck-t-shirt.jpg",
+        "imageHover": "./products/pure-cotton-round-neck-t-shirt-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -648,8 +648,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/sustainable-round-neck-t-shirts.jpg",
-        "imageHover": "/products/sustainable-round-neck-t-shirts-back.jpg",
+        "image": "./products/sustainable-round-neck-t-shirts.jpg",
+        "imageHover": "./products/sustainable-round-neck-t-shirts-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -708,8 +708,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/premium-lycra-cotton-round-neck-t-shirt.jpg",
-        "imageHover": "/products/premium-lycra-cotton-round-neck-t-shirt-back.jpg",
+        "image": "./products/premium-lycra-cotton-round-neck-t-shirt.jpg",
+        "imageHover": "./products/premium-lycra-cotton-round-neck-t-shirt-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -768,8 +768,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/supima-cotton-round-neck-t-shirt.jpg",
-        "imageHover": "/products/supima-cotton-round-neck-t-shirt-back.jpg",
+        "image": "./products/supima-cotton-round-neck-t-shirt.jpg",
+        "imageHover": "./products/supima-cotton-round-neck-t-shirt-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -828,8 +828,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/pure-cotton-plus-sized-roundneck-t-shirts.jpg",
-        "imageHover": "/products/pure-cotton-plus-sized-roundneck-t-shirts-back.jpg",
+        "image": "./products/pure-cotton-plus-sized-roundneck-t-shirts.jpg",
+        "imageHover": "./products/pure-cotton-plus-sized-roundneck-t-shirts-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -899,8 +899,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/acid-wash-oversize-t-shirt.jpg",
-        "imageHover": "/products/acid-wash-oversize-t-shirt-back.jpg",
+        "image": "./products/acid-wash-oversize-t-shirt.jpg",
+        "imageHover": "./products/acid-wash-oversize-t-shirt-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -959,8 +959,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/optic-wash-oversize-t-shirt.jpg",
-        "imageHover": "/products/optic-wash-oversize-t-shirt-back.jpg",
+        "image": "./products/optic-wash-oversize-t-shirt.jpg",
+        "imageHover": "./products/optic-wash-oversize-t-shirt-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -1019,8 +1019,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/dense-oversize-t-shirt.jpg",
-        "imageHover": "/products/dense-oversize-t-shirt-back.jpg",
+        "image": "./products/dense-oversize-t-shirt.jpg",
+        "imageHover": "./products/dense-oversize-t-shirt-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -1079,8 +1079,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/pure-cotton-oversized-roundneck-t-shirt.jpg",
-        "imageHover": "/products/pure-cotton-oversized-roundneck-t-shirt-back.jpg",
+        "image": "./products/pure-cotton-oversized-roundneck-t-shirt.jpg",
+        "imageHover": "./products/pure-cotton-oversized-roundneck-t-shirt-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -1150,8 +1150,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/pure-cotton-v-neck-t-shirt.jpg",
-        "imageHover": "/products/pure-cotton-v-neck-t-shirt-back.jpg",
+        "image": "./products/pure-cotton-v-neck-t-shirt.jpg",
+        "imageHover": "./products/pure-cotton-v-neck-t-shirt-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -1210,8 +1210,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/pure-cotton-long-sleeve-t-shirt.jpg",
-        "imageHover": "/products/pure-cotton-long-sleeve-t-shirt-back.jpg",
+        "image": "./products/pure-cotton-long-sleeve-t-shirt.jpg",
+        "imageHover": "./products/pure-cotton-long-sleeve-t-shirt-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -1270,8 +1270,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/polyester-activewear-jersey.jpg",
-        "imageHover": "/products/polyester-activewear-jersey-back.jpg",
+        "image": "./products/polyester-activewear-jersey.jpg",
+        "imageHover": "./products/polyester-activewear-jersey-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -1330,8 +1330,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/pure-cotton-raglan-t-shirt.jpg",
-        "imageHover": "/products/pure-cotton-raglan-t-shirt-back.jpg",
+        "image": "./products/pure-cotton-raglan-t-shirt.jpg",
+        "imageHover": "./products/pure-cotton-raglan-t-shirt-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -1390,8 +1390,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/tank-top.jpg",
-        "imageHover": "/products/tank-top-back.jpg",
+        "image": "./products/tank-top.jpg",
+        "imageHover": "./products/tank-top-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -1450,8 +1450,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/promotional-t-shirts.jpg",
-        "imageHover": "/products/promotional-t-shirts-back.jpg",
+        "image": "./products/promotional-t-shirts.jpg",
+        "imageHover": "./products/promotional-t-shirts-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -1521,8 +1521,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/classic-button-down-shirt.jpg",
-        "imageHover": "/products/classic-button-down-shirt-back.jpg",
+        "image": "./products/classic-button-down-shirt.jpg",
+        "imageHover": "./products/classic-button-down-shirt-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -1592,8 +1592,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/pure-cotton-shorts.jpg",
-        "imageHover": "/products/pure-cotton-shorts-back.jpg",
+        "image": "./products/pure-cotton-shorts.jpg",
+        "imageHover": "./products/pure-cotton-shorts-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -1652,8 +1652,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/pure-cotton-joggers.jpg",
-        "imageHover": "/products/pure-cotton-joggers-back.jpg",
+        "image": "./products/pure-cotton-joggers.jpg",
+        "imageHover": "./products/pure-cotton-joggers-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -1723,8 +1723,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/women-s-polo.jpg",
-        "imageHover": "/products/women-s-polo-back.jpg",
+        "image": "./products/women-s-polo.jpg",
+        "imageHover": "./products/women-s-polo-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -1783,8 +1783,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/women-s-pure-cotton-round-neck-t-shirt.jpg",
-        "imageHover": "/products/women-s-pure-cotton-round-neck-t-shirt-back.jpg",
+        "image": "./products/women-s-pure-cotton-round-neck-t-shirt.jpg",
+        "imageHover": "./products/women-s-pure-cotton-round-neck-t-shirt-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -1843,8 +1843,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/pure-cotton-round-neck-crop-tops.jpg",
-        "imageHover": "/products/pure-cotton-round-neck-crop-tops-back.jpg",
+        "image": "./products/pure-cotton-round-neck-crop-tops.jpg",
+        "imageHover": "./products/pure-cotton-round-neck-crop-tops-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -1912,8 +1912,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/infant-romper.jpg",
-        "imageHover": "/products/infant-romper-back.jpg",
+        "image": "./products/infant-romper.jpg",
+        "imageHover": "./products/infant-romper-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -1970,8 +1970,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/infant-bibs.jpg",
-        "imageHover": "/products/infant-bibs.jpg",
+        "image": "./products/infant-bibs.jpg",
+        "imageHover": "./products/infant-bibs.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -2041,8 +2041,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/kids-full-sleeve-t-shirt.jpg",
-        "imageHover": "/products/kids-full-sleeve-t-shirt-back.jpg",
+        "image": "./products/kids-full-sleeve-t-shirt.jpg",
+        "imageHover": "./products/kids-full-sleeve-t-shirt-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -2101,8 +2101,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/kids-tank-top.jpg",
-        "imageHover": "/products/kids-tank-top-back.jpg",
+        "image": "./products/kids-tank-top.jpg",
+        "imageHover": "./products/kids-tank-top-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -2161,8 +2161,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/kids-polo-t-shirt.jpg",
-        "imageHover": "/products/kids-polo-t-shirt-back.jpg",
+        "image": "./products/kids-polo-t-shirt.jpg",
+        "imageHover": "./products/kids-polo-t-shirt-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -2221,8 +2221,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/kids-joggers.jpg",
-        "imageHover": "/products/kids-joggers-back.jpg",
+        "image": "./products/kids-joggers.jpg",
+        "imageHover": "./products/kids-joggers-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -2281,8 +2281,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/kids-round-neck-t-shirt.jpg",
-        "imageHover": "/products/kids-round-neck-t-shirt-back.jpg",
+        "image": "./products/kids-round-neck-t-shirt.jpg",
+        "imageHover": "./products/kids-round-neck-t-shirt-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -2347,8 +2347,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/apron.jpg",
-        "imageHover": "/products/apron-back.jpg",
+        "image": "./products/apron.jpg",
+        "imageHover": "./products/apron-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -2402,8 +2402,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/beanies.jpg",
-        "imageHover": "/products/beanies-back.jpg",
+        "image": "./products/beanies.jpg",
+        "imageHover": "./products/beanies-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -2457,8 +2457,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/premium-trucker-caps.jpg",
-        "imageHover": "/products/premium-trucker-caps-back.jpg",
+        "image": "./products/premium-trucker-caps.jpg",
+        "imageHover": "./products/premium-trucker-caps-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -2512,8 +2512,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/premium-baseball-caps.jpg",
-        "imageHover": "/products/premium-baseball-caps-back.jpg",
+        "image": "./products/premium-baseball-caps.jpg",
+        "imageHover": "./products/premium-baseball-caps-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -2567,8 +2567,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/bucket-hat.jpg",
-        "imageHover": "/products/bucket-hat-back.jpg",
+        "image": "./products/bucket-hat.jpg",
+        "imageHover": "./products/bucket-hat-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -2622,8 +2622,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/face-masks.jpg",
-        "imageHover": "/products/face-masks-back.jpg",
+        "image": "./products/face-masks.jpg",
+        "imageHover": "./products/face-masks-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -2693,8 +2693,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/optic-wash-hoodie.jpg",
-        "imageHover": "/products/optic-wash-hoodie-back.jpg",
+        "image": "./products/optic-wash-hoodie.jpg",
+        "imageHover": "./products/optic-wash-hoodie-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -2753,8 +2753,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/heavyweight-hoodie.jpg",
-        "imageHover": "/products/heavyweight-hoodie.jpg",
+        "image": "./products/heavyweight-hoodie.jpg",
+        "imageHover": "./products/heavyweight-hoodie.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -2813,8 +2813,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/sustainable-dual-tone-hoodie.jpg",
-        "imageHover": "/products/sustainable-dual-tone-hoodie.jpg",
+        "image": "./products/sustainable-dual-tone-hoodie.jpg",
+        "imageHover": "./products/sustainable-dual-tone-hoodie.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -2873,8 +2873,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/high-neck-zipper-hoodie.jpg",
-        "imageHover": "/products/high-neck-zipper-hoodie.jpg",
+        "image": "./products/high-neck-zipper-hoodie.jpg",
+        "imageHover": "./products/high-neck-zipper-hoodie.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -2933,8 +2933,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/zipper-jacket.jpg",
-        "imageHover": "/products/zipper-jacket.jpg",
+        "image": "./products/zipper-jacket.jpg",
+        "imageHover": "./products/zipper-jacket.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -2993,8 +2993,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/quarter-zip-jacket.jpg",
-        "imageHover": "/products/quarter-zip-jacket-back.jpg",
+        "image": "./products/quarter-zip-jacket.jpg",
+        "imageHover": "./products/quarter-zip-jacket-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -3053,8 +3053,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/crew-neck-sweatshirt.jpg",
-        "imageHover": "/products/crew-neck-sweatshirt-back.jpg",
+        "image": "./products/crew-neck-sweatshirt.jpg",
+        "imageHover": "./products/crew-neck-sweatshirt-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -3113,8 +3113,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/pure-cotton-hoodie.jpg",
-        "imageHover": "/products/pure-cotton-hoodie-back.jpg",
+        "image": "./products/pure-cotton-hoodie.jpg",
+        "imageHover": "./products/pure-cotton-hoodie-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -3173,8 +3173,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/pure-cotton-hoodie-with-zip.jpg",
-        "imageHover": "/products/pure-cotton-hoodie-with-zip-back.jpg",
+        "image": "./products/pure-cotton-hoodie-with-zip.jpg",
+        "imageHover": "./products/pure-cotton-hoodie-with-zip-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -3233,8 +3233,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/pure-cotton-varsity-jacket.jpg",
-        "imageHover": "/products/pure-cotton-varsity-jacket-back.jpg",
+        "image": "./products/pure-cotton-varsity-jacket.jpg",
+        "imageHover": "./products/pure-cotton-varsity-jacket-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -3304,8 +3304,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/kids-zipper-hoodie.jpg",
-        "imageHover": "/products/kids-zipper-hoodie-back.jpg",
+        "image": "./products/kids-zipper-hoodie.jpg",
+        "imageHover": "./products/kids-zipper-hoodie-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -3364,8 +3364,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/pure-cotton-kid-s-hoodies.jpg",
-        "imageHover": "/products/pure-cotton-kid-s-hoodies-back.jpg",
+        "image": "./products/pure-cotton-kid-s-hoodies.jpg",
+        "imageHover": "./products/pure-cotton-kid-s-hoodies-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -3430,8 +3430,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/poster.jpg",
-        "imageHover": "/products/poster-back.jpg",
+        "image": "./products/poster.jpg",
+        "imageHover": "./products/poster-back.jpg",
         "customizable": false,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -3485,8 +3485,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/mouse-pad.jpg",
-        "imageHover": "/products/mouse-pad-back.jpg",
+        "image": "./products/mouse-pad.jpg",
+        "imageHover": "./products/mouse-pad-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -3551,8 +3551,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/enamel-mug.jpg",
-        "imageHover": "/products/enamel-mug-back.jpg",
+        "image": "./products/enamel-mug.jpg",
+        "imageHover": "./products/enamel-mug-back.jpg",
         "customizable": false,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -3606,8 +3606,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/idea-cafe-suction-mug.jpg",
-        "imageHover": "/products/idea-cafe-suction-mug-back.jpg",
+        "image": "./products/idea-cafe-suction-mug.jpg",
+        "imageHover": "./products/idea-cafe-suction-mug-back.jpg",
         "customizable": false,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -3661,8 +3661,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/tote-bag.jpg",
-        "imageHover": "/products/tote-bag-back.jpg",
+        "image": "./products/tote-bag.jpg",
+        "imageHover": "./products/tote-bag-back.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -3716,8 +3716,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/ceramic-mug.jpg",
-        "imageHover": "/products/ceramic-mug-back.jpg",
+        "image": "./products/ceramic-mug.jpg",
+        "imageHover": "./products/ceramic-mug-back.jpg",
         "customizable": false,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -3787,8 +3787,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/rare-rabbit-signature-round-neck-t-shirt.jpg",
-        "imageHover": "/products/rare-rabbit-signature-round-neck-t-shirt.jpg",
+        "image": "./products/rare-rabbit-signature-round-neck-t-shirt.jpg",
+        "imageHover": "./products/rare-rabbit-signature-round-neck-t-shirt.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -3847,8 +3847,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/rare-rabbit-signature-polo-t-shirt.jpg",
-        "imageHover": "/products/rare-rabbit-signature-polo-t-shirt.jpg",
+        "image": "./products/rare-rabbit-signature-polo-t-shirt.jpg",
+        "imageHover": "./products/rare-rabbit-signature-polo-t-shirt.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -3907,8 +3907,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/rare-rabbit-sweatshirt.jpg",
-        "imageHover": "/products/rare-rabbit-sweatshirt.jpg",
+        "image": "./products/rare-rabbit-sweatshirt.jpg",
+        "imageHover": "./products/rare-rabbit-sweatshirt.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -3967,8 +3967,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/rare-rabbit-cotton-polo.jpg",
-        "imageHover": "/products/rare-rabbit-cotton-polo.jpg",
+        "image": "./products/rare-rabbit-cotton-polo.jpg",
+        "imageHover": "./products/rare-rabbit-cotton-polo.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -4027,8 +4027,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/rare-rabbit-shirts-mens.jpg",
-        "imageHover": "/products/rare-rabbit-shirts-mens.jpg",
+        "image": "./products/rare-rabbit-shirts-mens.jpg",
+        "imageHover": "./products/rare-rabbit-shirts-mens.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1
@@ -4082,8 +4082,8 @@ export const PRODUCT_SECTIONS: ProductCategorySection[] = [
             "hex": "#FACC15"
           }
         ],
-        "image": "/products/yupoong-caps-collection.jpg",
-        "imageHover": "/products/yupoong-caps-collection.jpg",
+        "image": "./products/yupoong-caps-collection.jpg",
+        "imageHover": "./products/yupoong-caps-collection.jpg",
         "customizable": true,
         "bulkDiscountEligible": true,
         "minOrderQty": 1

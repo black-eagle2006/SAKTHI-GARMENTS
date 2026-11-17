@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { Sparkles, ShoppingBag, Check } from 'lucide-react';
 import { ProductItem } from '../../data/productsData';
 import { useCart } from '../../context/CartContext';
+import { getAssetUrl } from '../../utils/assetUrl';
 
 interface ProductCardProps {
   product: ProductItem;
@@ -15,13 +16,14 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   const [imgError, setImgError] = useState(false);
   const [backImgError, setBackImgError] = useState(false);
 
+  const fallbackImg = getAssetUrl('products/the-heavy-polo.jpg');
   const frontSrc = imgError
-    ? `https://cdn.yourdesignstore.in/uploads/yds/productImages/full/${product.slug}.jpg`
-    : product.image || `/products/${product.slug}.jpg`;
+    ? fallbackImg
+    : getAssetUrl(product.image || `products/${product.slug}.jpg`);
 
   const backSrc = backImgError
     ? frontSrc
-    : product.imageHover || `/products/${product.slug}-back.jpg`;
+    : getAssetUrl(product.imageHover || `products/${product.slug}-back.jpg`);
 
   const handleQuickAddToCart = (e: React.MouseEvent) => {
     e.preventDefault();

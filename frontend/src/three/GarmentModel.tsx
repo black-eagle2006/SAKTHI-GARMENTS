@@ -129,7 +129,6 @@ export const GarmentModel: React.FC<GarmentModelProps> = ({
   // ---------------------------------------------------------------- geometry
   const built = useMemo(() => buildShirt(kind), [kind]);
   const g = built.shirt;
-  useEffect(() => () => built.geometries.forEach((geo) => geo.dispose()), [built]);
 
   // ---------------------------------------------------------------- materials
   const fabricBump = useMemo(() => {
@@ -170,19 +169,14 @@ export const GarmentModel: React.FC<GarmentModelProps> = ({
 
   // Update colours in place (no material re-creation / leak on every swatch click).
   useLayoutEffect(() => {
-    const base = new THREE.Color(color);
+    // If pure white #FFFFFF, use a realistic combed cotton albedo (#EAEAE6)
+    // so shadows, neckline stitches, and fabric folds remain clearly visible against pure white background
+    const isPureWhite = color.toUpperCase() === '#FFFFFF';
+    const base = isPureWhite ? new THREE.Color('#EAEAE6') : new THREE.Color(color);
     mats.fabric.color.copy(base);
     mats.rib.color.copy(base).multiplyScalar(0.97);
     mats.stitch.color.copy(tonal(base, 0.8, 0.1));
   }, [color, mats]);
-
-  useEffect(
-    () => () => {
-      Object.values(mats).forEach((m) => m.dispose());
-      fabricBump.dispose();
-    },
-    [mats, fabricBump]
-  );
 
   // ---------------------------------------------------------------- artwork
   const frontTexture = useDecalTexture(frontLayers);

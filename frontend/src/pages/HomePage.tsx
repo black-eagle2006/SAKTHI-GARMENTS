@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { getAssetUrl } from '../utils/assetUrl';
 import {
   Sparkles,
   ArrowRight,
@@ -133,11 +134,11 @@ export const HomePage: React.FC = () => {
               {/* Garment Image Showcase */}
               <div className="relative aspect-square rounded-2xl bg-white border border-[#E5E5E5] overflow-hidden flex items-center justify-center p-4 shadow-inner">
                 <img
-                  src="/products/heavy-polo.jpg"
+                  src={getAssetUrl('products/the-heavy-polo.jpg')}
                   alt="Sakthi Garments Polo"
                   className="w-full h-full object-contain"
                   onError={(e: any) => {
-                    e.target.src = 'https://cdn.yourdesignstore.in/uploads/yds/productImages/full/heavy-polo.jpg';
+                    e.currentTarget.src = getAssetUrl('products/the-heavy-polo.jpg');
                   }}
                 />
                 <div className="absolute bottom-3 inset-x-0 flex justify-center pointer-events-none">
@@ -237,11 +238,11 @@ export const HomePage: React.FC = () => {
             >
               <div className="aspect-square bg-[#F7F7F5] overflow-hidden relative">
                 <img
-                  src={p.image || `/products/${p.slug}.jpg`}
+                  src={getAssetUrl(p.image || `products/${p.slug}.jpg`)}
                   alt={p.name}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   onError={(e: any) => {
-                    e.target.src = `https://cdn.yourdesignstore.in/uploads/yds/productImages/full/${p.slug}.jpg`;
+                    e.currentTarget.src = getAssetUrl('products/the-heavy-polo.jpg');
                   }}
                 />
               </div>

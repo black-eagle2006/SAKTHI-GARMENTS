@@ -48,7 +48,7 @@ const CustomizerContext = createContext<CustomizerContextType | undefined>(undef
 
 export const CustomizerProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [garmentType, setGarmentTypeState] = useState<GarmentType>('round-neck');
-  const [tshirtColor, setTshirtColorState] = useState<string>('#FFFFFF');
+  const [tshirtColor, setTshirtColorState] = useState<string>('#171717');
   const [cameraView, setCameraView] = useState<'front' | 'back' | 'leftSleeve' | 'rightSleeve' | 'free'>('front');
   const [activeSide, setActiveSide] = useState<'front' | 'back'>('front');
   // Pristine default: no embedded permanent logo or text
