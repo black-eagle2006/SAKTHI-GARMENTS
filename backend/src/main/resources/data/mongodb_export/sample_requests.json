@@ -1,0 +1,13 @@
+[
+  {
+    "_id": { "$oid": "64b8f0060000000000000001" },
+    "customerMongoId": "64b8f0020000000000000001",
+    "companyMongoId": "64b8f0010000000000000001",
+    "sampleType": "Fabric Swatch Sample",
+    "quantity": 1,
+    "price": 69.00,
+    "paymentStatus": "COMPLETED",
+    "fulfilmentStatus": "DELIVERED",
+    "createdAt": { "$date": "2024-03-02T09:30:00Z" }
+  }
+]

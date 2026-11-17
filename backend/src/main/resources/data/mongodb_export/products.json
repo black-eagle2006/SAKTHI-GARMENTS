@@ -1,0 +1,38 @@
+[
+  {
+    "_id": { "$oid": "64b8f0030000000000000001" },
+    "companyMongoId": "64b8f0010000000000000001",
+    "name": "Legacy Heavyweight Supima Cotton Tee",
+    "sku": "SG-LEGACY-001",
+    "description": "240 GSM ultra-heavyweight combed organic cotton knit t-shirt sourced from Tiruppur mills.",
+    "garmentType": "T-Shirt",
+    "fabric": "100% Supima Combed Cotton",
+    "fabricGsm": 240,
+    "fit": "Oversized Streetwear Fit",
+    "sleeveType": "Half Sleeve Drop Shoulder",
+    "basePrice": 349.00,
+    "minOrderQuantity": 1,
+    "stockQuantity": 800,
+    "isCustomizable": true,
+    "sampleAvailable": true,
+    "samplePrice": 69.00,
+    "isPublished": true,
+    "variants": [
+      {
+        "sku": "SG-LEGACY-001-M-BLK",
+        "size": "M",
+        "colorName": "Vintage Charcoal",
+        "colorHex": "#1F2937",
+        "priceAdjustment": 0.00
+      },
+      {
+        "sku": "SG-LEGACY-001-L-BLK",
+        "size": "L",
+        "colorName": "Vintage Charcoal",
+        "colorHex": "#1F2937",
+        "priceAdjustment": 0.00
+      }
+    ],
+    "createdAt": { "$date": "2024-03-05T14:20:00Z" }
+  }
+]

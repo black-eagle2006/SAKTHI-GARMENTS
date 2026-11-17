@@ -1,0 +1,37 @@
+[
+  {
+    "_id": { "$oid": "64b8f0050000000000000001" },
+    "orderNumber": "SG-MONGO-2024-001",
+    "customerMongoId": "64b8f0020000000000000001",
+    "companyMongoId": "64b8f0010000000000000001",
+    "status": "DELIVERED",
+    "subtotal": 698.00,
+    "shippingFee": 0.00,
+    "taxAmount": 34.90,
+    "totalAmount": 732.90,
+    "paymentMethod": "RAZORPAY",
+    "paymentStatus": "COMPLETED",
+    "razorpayOrderId": "order_MONGO9901",
+    "razorpayPaymentId": "pay_MONGO9901",
+    "trackingNumber": "SG-TRK-MONGO-001-IN",
+    "courierName": "Blue Dart Express",
+    "shippingFullName": "Meenakshi Sundaram",
+    "shippingPhone": "+91 97890 12345",
+    "shippingAddressLine": "45 Gandhi Street, RS Puram",
+    "shippingCity": "Coimbatore",
+    "shippingState": "Tamil Nadu",
+    "shippingPincode": "641002",
+    "items": [
+      {
+        "productName": "Legacy Heavyweight Supima Cotton Tee",
+        "size": "L",
+        "color": "Vintage Charcoal",
+        "quantity": 2,
+        "unitPrice": 349.00,
+        "totalPrice": 698.00,
+        "itemType": "CUSTOM"
+      }
+    ],
+    "createdAt": { "$date": "2024-03-12T12:00:00Z" }
+  }
+]

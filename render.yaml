@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: sakthi-garments
+    env: java
+    plan: free
+    buildCommand: "npm --prefix frontend run build && cd backend && ./mvnw clean package -DskipTests"
+    startCommand: "java -Dserver.port=$PORT -Dspring.profiles.active=prod -jar backend/target/sakthi-garments-backend-1.0.0.jar"
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: SPRING_PROFILES_ACTIVE
+        value: prod
+      - key: GEMINI_API_KEY
+        value: ""

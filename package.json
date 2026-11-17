@@ -1,0 +1,17 @@
+{
+  "name": "sakthi-garments-master",
+  "version": "1.0.0",
+  "description": "SAKTHI GARMENTS — AI-Powered 3D T-Shirt Customization & Garment Marketplace",
+  "scripts": {
+    "install:all": "npm --prefix frontend install",
+    "dev": "concurrently -n \"BACKEND,FRONTEND\" -c \"cyan,magenta\" \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:backend": "cd backend && mvn spring-boot:run",
+    "build:frontend": "npm --prefix frontend run build",
+    "build": "npm run build:frontend && cd backend && mvn clean package -DskipTests",
+    "start": "cd backend && mvn spring-boot:run"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.6"
+  }
+}

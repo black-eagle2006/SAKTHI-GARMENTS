@@ -1,0 +1,21 @@
+[
+  {
+    "_id": { "$oid": "64b8f0040000000000000001" },
+    "userMongoId": "64b8f0020000000000000001",
+    "title": "Tiruppur Legacy Heritage Logo",
+    "tshirtColor": "#111827",
+    "frontLayers": [
+      {
+        "type": "TEXT",
+        "content": "KONGU MANDALAM 1972",
+        "fontFamily": "Impact",
+        "colorHex": "#F59E0B",
+        "xPos": 1024.0,
+        "yPos": 800.0,
+        "scaleVal": 1.2
+      }
+    ],
+    "thumbnailUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=",
+    "createdAt": { "$date": "2024-03-10T16:00:00Z" }
+  }
+]

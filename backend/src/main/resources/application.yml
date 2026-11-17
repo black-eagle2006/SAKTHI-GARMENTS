@@ -1,0 +1,53 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+spring:
+  application:
+    name: sakthi-garments-backend
+  profiles:
+    active: dev
+
+  mvc:
+    problemdetails:
+      enabled: true
+  data:
+    mongodb:
+      uri: ${MONGO_URI:mongodb://localhost:27017/sakthi_garments}
+
+# Security & Third Party Configurations
+app:
+  jwt:
+    secret: "sakthi_garments_ultra_secure_jwt_signing_secret_key_tiruppur_2026_super_long_key"
+    expiration-ms: 86400000 # 24 hours
+  cors:
+    allowed-origins:
+      - "http://localhost:5173"
+      - "http://localhost:3000"
+      - "http://127.0.0.1:5173"
+  gemini:
+    api-key: "${GEMINI_API_KEY:}"
+    model: "gemini-3.1-flash-lite"
+    api-url: "https://generativelanguage.googleapis.com/v1beta/models"
+    timeout-ms: 10000
+  razorpay:
+    key-id: "${RAZORPAY_KEY_ID:rzp_test_sakthi_dev}"
+    key-secret: "${RAZORPAY_KEY_SECRET:mock_secret_for_local_dev}"
+    test-mode: true
+  pricing:
+    sample-base-price: 69.0
+    plain-tshirt-base-price: 249.0
+    custom-tshirt-base-price: 299.0
+    front-layer-surcharge: 50.0
+    back-print-surcharge: 80.0
+    gst-rate-percent: 5.0
+    free-shipping-threshold: 999.0
+    shipping-fee: 50.0
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    operationsSorter: method
+  api-docs:
+    path: /v3/api-docs

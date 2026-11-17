@@ -1,0 +1,34 @@
+[
+  {
+    "_id": { "$oid": "64b8f0020000000000000001" },
+    "email": "legacy.customer@sakthigarments.in",
+    "passwordHash": "$2a$10$N.zmdr9k7uOCQb376NoUnuTJ8iAt6Z5EHsM8lE9lBOsl7iKTVKIUi",
+    "fullName": "Meenakshi Sundaram",
+    "phoneNumber": "+91 97890 12345",
+    "role": "CUSTOMER",
+    "isActive": true,
+    "companyId": null,
+    "addresses": [
+      {
+        "addressLine1": "45 Gandhi Street, RS Puram",
+        "city": "Coimbatore",
+        "state": "Tamil Nadu",
+        "pincode": "641002",
+        "addressType": "SHIPPING",
+        "isDefault": true
+      }
+    ],
+    "createdAt": { "$date": "2024-03-01T11:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "64b8f0020000000000000002" },
+    "email": "legacy.company@sakthigarments.in",
+    "passwordHash": "$2a$10$N.zmdr9k7uOCQb376NoUnuTJ8iAt6Z5EHsM8lE9lBOsl7iKTVKIUi",
+    "fullName": "K. Sakthivel Mill Admin",
+    "phoneNumber": "+91 94432 00001",
+    "role": "COMPANY",
+    "isActive": true,
+    "companyMongoId": "64b8f0010000000000000001",
+    "createdAt": { "$date": "2024-01-15T09:00:00Z" }
+  }
+]
